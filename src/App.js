@@ -9,6 +9,7 @@ import Header from './components/Header/header';
 import Menu from './components/Menu/menu';
 import Main from './components/Main/main';
 
+<<<<<<< HEAD
 const url = process.env.PUBLIC_URL + '/img/bg.jpg'; 
 
 const HeaderWrapper = styled.header`
@@ -29,10 +30,13 @@ const MainWrapper = styled.main`
   background: url(${url}) no-repeat;
   background-size: cover;
 `
+=======
+>>>>>>> fc033ced5bd65139657dbe4589158e697a9d02f6
 class App extends Component {
   render() {
     return (
       <div className="App">
+<<<<<<< HEAD
       <HeaderWrapper>
         <Grid>
             <Header/>
@@ -50,6 +54,11 @@ class App extends Component {
         </Grid>
       </MainWrapper>
           
+=======
+          <Header/>
+          <Menu/>
+          <Menu/>
+>>>>>>> fc033ced5bd65139657dbe4589158e697a9d02f6
       </div>
     )
   }

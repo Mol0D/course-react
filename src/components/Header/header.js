@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
 import styled from 'styled-components';
 
+<<<<<<< HEAD
 import Link from './link';
 
 const List = styled.ul`
@@ -31,6 +32,12 @@ class Header extends Component{
                     </nav>
                 </Col>
             </Row>
+=======
+class Header extends Component{
+    render(){
+        return (
+            <h1>Header</h1>
+>>>>>>> fc033ced5bd65139657dbe4589158e697a9d02f6
         )
     }
 }
