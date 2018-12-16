@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
 import styled from 'styled-components';
-<<<<<<< HEAD
 const Repair = styled.div`
     color: #464646;
     font-size: 18px;
@@ -88,14 +87,6 @@ class Menu extends Component{
                     <CallButton>Заказать звонок!</CallButton>
                 </Col>
             </Row>
-=======
-
-
-class Menu extends Component{
-    render(){
-        return (
-            <h1>Menu</h1>
->>>>>>> fc033ced5bd65139657dbe4589158e697a9d02f6
         )
     }
 }
